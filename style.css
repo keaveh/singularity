@@ -1,0 +1,41 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.btn {
+  height: 40px;
+  width: 180px;
+  background-color: aqua;
+  color: black;
+  border: 2px solid palevioletred;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+text {
+    position: relative;
+
+}
+p {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-image: url("https://picsum.photos/204/300.jpg");
+}
